@@ -2,11 +2,10 @@
 
 **_For previous users of the bootcamp, we have upgraded from Scala 2.11 to Scala 2.12. If you are encountering errors, please follow the installation instructions to upgrade to 2.12._**
 
-# Chisel Bootcamp
+# Chisel Introduction
 
-Elevate the level of your hardware design from instances to generators!
-This bootcamp teaches you Chisel, a Berkeley hardware construction DSL written in Scala.
-It teaches you Scala along the way, and it frames the learning of Chisel on the idea of *hardware generators*.
+This is a fork from the Chisel bootcamp that is updated for the digital electronics 2 course at DTU.
+
 
 ## What you'll learn
 
@@ -18,9 +17,7 @@ It teaches you Scala along the way, and it frames the learning of Chisel on the 
 
 ## Prerequisites
 
-- Familiarity with Verilog, VHDL, or at least some digital hardware design
-- Programming experience in with a "high-level" language, be it in Python, Java, C++, etc.
-- An earnest desire to learn
+- Familiarity with basic digital design and minimal knowledge of VHDL
 
 ## Getting Started
 
