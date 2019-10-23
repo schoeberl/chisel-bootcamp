@@ -8,3 +8,9 @@
 *.fir
 *.v
 *.xml
+
+
+/project
+/target
+/generated
+/Vivado/Vending_machine
