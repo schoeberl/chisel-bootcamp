@@ -110,14 +110,14 @@ set_property PACKAGE_PIN W4 [get_ports {io_seg_an[3]}]
 ##Buttons
 set_property PACKAGE_PIN U18 [get_ports reset]
 	set_property IOSTANDARD LVCMOS33 [get_ports reset]
-#set_property PACKAGE_PIN T18 [get_ports io_freqIncrease]
-	#set_property IOSTANDARD LVCMOS33 [get_ports io_freqIncrease]
-#set_property PACKAGE_PIN W19 [get_ports io_widthIncrease]
-	#set_property IOSTANDARD LVCMOS33 [get_ports io_widthIncrease]
-#set_property PACKAGE_PIN T17 [get_ports io_widthDecrease]
-	#set_property IOSTANDARD LVCMOS33 [get_ports io_widthDecrease]
-#set_property PACKAGE_PIN U17 [get_ports io_freqDecrease]
-	#set_property IOSTANDARD LVCMOS33 [get_ports io_freqDecrease]
+set_property PACKAGE_PIN T18 [get_ports io_up]
+	set_property IOSTANDARD LVCMOS33 [get_ports io_up]
+set_property PACKAGE_PIN W19 [get_ports io_left]
+	set_property IOSTANDARD LVCMOS33 [get_ports io_left]
+set_property PACKAGE_PIN T17 [get_ports io_right]
+	set_property IOSTANDARD LVCMOS33 [get_ports io_right]
+set_property PACKAGE_PIN U17 [get_ports io_down]
+	set_property IOSTANDARD LVCMOS33 [get_ports io_down]
 
 
 
