@@ -17,7 +17,7 @@ pip3 install -y jupyter
 echo install openjdk8
 sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt-get update
-sudo apt-get -y install openjdk-8-jdk
+sudo apt-get install openjdk-8-jdk
 
 echo Install sbt and thereby scala
 echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
