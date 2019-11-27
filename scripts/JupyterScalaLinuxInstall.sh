@@ -12,7 +12,7 @@ echo Install pip3
 sudo apt install -y python3-pip
 
 echo Install Jupyter
-pip3 install -y jupyter
+pip3 install jupyter
 
 echo install openjdk8
 sudo add-apt-repository ppa:openjdk-r/ppa
